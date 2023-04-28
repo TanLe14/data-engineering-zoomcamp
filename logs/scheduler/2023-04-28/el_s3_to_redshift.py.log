@@ -1,0 +1,70 @@
+[2023-04-28T06:04:47.072+0000] {processor.py:153} INFO - Started process (PID=35) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:04:47.073+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:04:47.074+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:04:47.073+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:04:51.015+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:04:51.170+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:04:51.170+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:04:51.209+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:04:51.209+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:04:51.281+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 4.220 seconds
+[2023-04-28T06:05:21.613+0000] {processor.py:153} INFO - Started process (PID=48) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:05:21.614+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:05:21.615+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:21.615+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:05:22.473+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:05:22.502+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:22.501+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:05:22.559+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:22.558+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:05:22.589+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 0.982 seconds
+[2023-04-28T06:05:53.056+0000] {processor.py:153} INFO - Started process (PID=61) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:05:53.057+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:05:53.058+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:53.058+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:05:54.042+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:05:54.068+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:54.067+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:05:54.132+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:54.132+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:05:54.161+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 1.129 seconds
+[2023-04-28T06:06:24.560+0000] {processor.py:153} INFO - Started process (PID=74) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:06:24.562+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:06:24.564+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:24.564+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:06:25.229+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:06:25.249+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:25.248+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:06:25.296+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:25.296+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:06:25.325+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 0.778 seconds
+[2023-04-28T06:06:55.659+0000] {processor.py:153} INFO - Started process (PID=86) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:06:55.660+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:06:55.661+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:55.661+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:06:56.412+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:06:56.438+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:56.438+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:06:56.489+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:56.488+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:06:56.515+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 0.863 seconds
+[2023-04-28T06:07:26.816+0000] {processor.py:153} INFO - Started process (PID=99) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:07:26.817+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:07:26.818+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:26.818+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:07:27.412+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:07:27.430+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:27.429+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:07:27.477+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:27.476+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:07:27.506+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 0.696 seconds
+[2023-04-28T06:07:57.882+0000] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:07:57.884+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:07:57.885+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:57.884+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:07:58.525+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:07:58.550+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:58.550+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:07:58.602+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:58.602+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:07:58.630+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 0.756 seconds
+[2023-04-28T06:08:28.940+0000] {processor.py:153} INFO - Started process (PID=125) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:08:28.941+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:08:28.942+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:28.942+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:08:29.642+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:08:29.664+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:29.663+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:08:29.698+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:29.698+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:08:29.721+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 0.789 seconds
+[2023-04-28T06:09:00.018+0000] {processor.py:153} INFO - Started process (PID=138) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:09:00.019+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:09:00.020+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:00.020+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:09:00.793+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:09:00.820+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:00.820+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:09:00.878+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:00.878+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:09:00.908+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 0.896 seconds
+[2023-04-28T06:09:31.224+0000] {processor.py:153} INFO - Started process (PID=151) to work on /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:09:31.225+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/el_s3_to_redshift.py for tasks to queue
+[2023-04-28T06:09:31.226+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:31.226+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:09:32.445+0000] {processor.py:753} INFO - DAG(s) dict_keys(['el_s3_to_redshift']) retrieved from /opt/airflow/dags/el_s3_to_redshift.py
+[2023-04-28T06:09:32.471+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:32.470+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-28T06:09:32.555+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:32.551+0000] {dag.py:3456} INFO - Setting next_dagrun for el_s3_to_redshift to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-28T06:09:32.620+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/el_s3_to_redshift.py took 1.402 seconds

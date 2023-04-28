@@ -1,0 +1,101 @@
+[2023-04-28T06:01:22.718+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-04-28T06:01:22.725+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-04-28T06:01:22.726+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/git+https:/TanLe14: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@github.com/TanLe14/data-engineering-zoomcamp.git every 300 seconds
+[2023-04-28T06:01:22.726+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/git+https:/TanLe14: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@github.com/TanLe14/data-engineering-zoomcamp.git
+[2023-04-28T06:01:22.727+0000] {manager.py:739} INFO - There are 0 files in /opt/airflow/git+https:/TanLe14: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@github.com/TanLe14/data-engineering-zoomcamp.git
+[2023-04-28T06:03:51.039+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-28T06:04:46.975+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-04-28T06:04:46.979+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-04-28T06:04:46.979+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-04-28T06:04:46.980+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-28T06:04:46.982+0000] {manager.py:739} INFO - There are 2 files in /opt/airflow/dags
+[2023-04-28T06:04:47.171+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/el_s3_to_redshift.py     35  0.13s             0           0
+/opt/airflow/dags/etl_web_to_s3.py         34  0.13s             0           0
+================================================================================
+[2023-04-28T06:05:17.546+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/el_s3_to_redshift.py                           1           0  4.31s           2023-04-28T06:04:51
+/opt/airflow/dags/etl_web_to_s3.py                               1           0  4.34s           2023-04-28T06:04:51
+================================================================================
+[2023-04-28T06:05:47.865+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/el_s3_to_redshift.py                           1           0  1.02s           2023-04-28T06:05:22
+/opt/airflow/dags/etl_web_to_s3.py                               1           0  1.08s           2023-04-28T06:05:22
+================================================================================
+[2023-04-28T06:06:18.416+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/el_s3_to_redshift.py                           1           0  1.22s           2023-04-28T06:05:54
+/opt/airflow/dags/etl_web_to_s3.py                               1           0  1.33s           2023-04-28T06:05:54
+================================================================================
+[2023-04-28T06:06:48.547+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/el_s3_to_redshift.py                           1           0  0.84s           2023-04-28T06:06:25
+/opt/airflow/dags/etl_web_to_s3.py                               1           0  0.92s           2023-04-28T06:06:25
+================================================================================
+[2023-04-28T06:07:18.712+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/el_s3_to_redshift.py                           1           0  0.90s           2023-04-28T06:06:56
+/opt/airflow/dags/etl_web_to_s3.py                               1           0  0.98s           2023-04-28T06:06:56
+================================================================================
+[2023-04-28T06:07:48.783+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/el_s3_to_redshift.py                           1           0  0.74s           2023-04-28T06:07:27
+/opt/airflow/dags/etl_web_to_s3.py                               1           0  0.81s           2023-04-28T06:07:27
+================================================================================
+[2023-04-28T06:08:18.843+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/el_s3_to_redshift.py                           1           0  0.79s           2023-04-28T06:07:58
+/opt/airflow/dags/etl_web_to_s3.py                               1           0  0.85s           2023-04-28T06:07:58
+================================================================================
+[2023-04-28T06:08:48.902+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/el_s3_to_redshift.py                           1           0  0.82s           2023-04-28T06:08:29
+/opt/airflow/dags/etl_web_to_s3.py                               1           0  0.91s           2023-04-28T06:08:29
+================================================================================
+[2023-04-28T06:09:19.091+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/el_s3_to_redshift.py                           1           0  0.93s           2023-04-28T06:09:00
+/opt/airflow/dags/etl_web_to_s3.py                               1           0  1.03s           2023-04-28T06:09:01
+================================================================================
