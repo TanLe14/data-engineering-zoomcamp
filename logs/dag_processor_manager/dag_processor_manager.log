@@ -1765,3 +1765,5 @@ File Path                               PID    Runtime      # DAGs    # Errors  
 [2023-05-04T02:43:46.575+0000] {manager.py:739} INFO - There are 0 files in /opt/airflow/"git+https:/TanLe14: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@github.com/TanLe14/data-engineering-zoomcamp.git"
 [2023-05-04T02:48:46.801+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/"git+https:/TanLe14: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@github.com/TanLe14/data-engineering-zoomcamp.git"
 [2023-05-04T02:48:46.801+0000] {manager.py:739} INFO - There are 0 files in /opt/airflow/"git+https:/TanLe14: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@github.com/TanLe14/data-engineering-zoomcamp.git"
+[2023-05-04T02:53:46.955+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/"git+https:/TanLe14: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@github.com/TanLe14/data-engineering-zoomcamp.git"
+[2023-05-04T02:53:46.957+0000] {manager.py:739} INFO - There are 0 files in /opt/airflow/"git+https:/TanLe14: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@github.com/TanLe14/data-engineering-zoomcamp.git"
