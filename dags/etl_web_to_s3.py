@@ -18,7 +18,6 @@ import boto3
 import logging
 from airflow.utils.task_group import TaskGroup
 from airflow.operators.email import EmailOperator
-
 #Get variable in airflow.
 months=Variable.get('months')
 year=Variable.get('year')
@@ -170,6 +169,5 @@ def extract_data_to_s3():
             format_to_parquet(raw_parquet_path,raw_csv_path) >> \
             load_file_to_s3(dataset_file_parquet,raw_parquet_path)
     gr1 >> cal_number_row()>> send_email()
-        
 etl=extract_data_to_s3()
 
