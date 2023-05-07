@@ -54,7 +54,7 @@ x-airflow-common:
   build:
     context: .
     cache_from:
-      - test
+      - git
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
