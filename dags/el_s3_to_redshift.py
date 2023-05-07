@@ -10,8 +10,7 @@ from sqlalchemy import create_engine
 import time
 from airflow.operators.email import EmailOperator
 import smtplib
-#test
-#test_git
+
 #Get variable in airflow.
 months=Variable.get('months')
 year=Variable.get('year')
