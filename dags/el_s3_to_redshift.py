@@ -28,7 +28,8 @@ host=Variable.get('host')
 logging.basicConfig(level=logging.INFO)
 logger=logging.getLogger()
 
-base_path= os.path.abspath(__file__+"/../../")
+base_path= os.path.abspath(__file__+"/../../../")
+print(base_path)
 default_args={
     'owner':'tanlx',
     'retries':2,
